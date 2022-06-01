@@ -3,7 +3,7 @@ from cgitb import text
 from distutils.command.build_py import build_py_2to3
 from tkinter import *
 
-# Criar janela 
+# Criar janela  
 root = Tk()
 root.geometry('400x300+720+350') # declara o tamanho da jenela (400x300) tamanho inicial/ +100 +100 lugar onde ela vai abrir 
 root.config(background='#fff') #baclground color
